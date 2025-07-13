@@ -1,115 +1,89 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{dao2025noisy,
+  abbr = {FGCS},
+  title={Noisy data-based attack: A new type of untargeted attack in Federated Learning and its countermeasures},
+  author={Dao, Manh Cuong and Le Nguyen, Phi and Pham, Huy Hieu and Nguyen, Thanh Hung and Chen, Peng and Wahib, Mohamed and Truong, Thao Nguyen},
+  journal={Future Generation Computer Systems},
+  pages={107900},
+  year={2025},
+  publisher={Elsevier},
+  google_scholar_id={Se3iqnhoufwC},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0167739X25001955},
+  abstract={
+    Federated Learning (FL) is a distributed learning mechanism that enables multiple clients to collaboratively train a global model (e.g. a neural network) while maintaining the privacy of their data. However, FL is susceptible to adversarial attacks, especially those involving poisoned samples. Despite significant research efforts, adversarial attacks and defenses in FL remain an unresolved issue. In this paper, we unravel a novel type of untargeted attack called the noisy data-based attack, which can evade almost all current state-of-the-art defenses. This attack involves transforming training data into noisy data, resulting in reduced accuracy of the global model. To address this issue, we propose a novel defense mechanism named NDAD, which uses a confidence score to evaluate the accuracy of a local model’s prediction on a client’s data. Our defense comprises two major components: a highly accurate algorithm for identifying malicious clients and an aggregation algorithm that optimizes beneficial knowledge from clients while avoiding the impact of poisoned data. The experimental results demonstrate that our proposed defense can detect malicious clients with a high detection accuracy of over 97%, even in challenging scenarios with a significantly high ratio of malicious clients. Furthermore, our proposed aggregation scheme improves the accuracy of the global model by an average of around 2%–3% and up to 4.75% in the best-case scenario compared to existing defenses on MNIST, CIFAR-10, and HAM10000 datasets.
+  },
+  published={true},
+  selected = {true},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{dao2024incorporating,
+  abbr = {NeurIPS},
+  title={Incorporating surrogate gradient norm to improve offline optimization techniques},
+  author={Dao, Cuong and Nguyen, Phi Le and Thao Nguyen, Truong and Hoang, Nghia},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={8014--8046},
+  year={2024},
+  google_scholar_id={YsMSGLbcyi4C},
+  pdf={https://arxiv.org/abs/2503.04242},
+  abstract={
+    Offline optimization has recently emerged as an increasingly popular approach to mitigate the prohibitively expensive cost of online experimentation. The key idea is to learn a surrogate of the black-box function that underlines the target experiment using a static (offline) dataset of its previous input-output queries. Such an approach is, however, fraught with an out-of-distribution issue where the learned surrogate becomes inaccurate outside the offline data regimes. To mitigate this, existing offline optimizers have proposed numerous conditioning techniques to prevent the learned surrogate from being too erratic. Nonetheless, such conditioning strategies are often specific to particular surrogate or search models, which might not generalize to a different model choice. This motivates us to develop a model-agnostic approach instead, which incorporates a notion of model sharpness into the training loss of the surrogate as a regularizer. Our approach is supported by a new theoretical analysis demonstrating that reducing surrogate sharpness on the offline dataset provably reduces its generalized sharpness on unseen data. Our analysis extends existing theories from bounding generalized prediction loss (on unseen data) with loss sharpness to bounding the worst-case generalized surrogate sharpness with its empirical estimate on training data, providing a new perspective on sharpness regularization. Our extensive experimentation on a diverse range of optimization tasks also shows that reducing surrogate sharpness often leads to significant improvement, marking (up to) a noticeable 9.6% performance boost.
+  },
+  published={true},
+  selected = {true},
+  code={https://github.com/cuong-dm/IGNITE},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{dao2025boosting,
+  abbr = {ICML},
+  title={Boosting offline optimizers with surrogate sensitivity},
+  author={Dao, Manh Cuong and Nguyen, Phi Le and Truong, Thao Nguyen and Hoang, Trong Nghia},
+  journal={International Conference on Machine Learning},
+  google_scholar_id={zYLM7Y9cAGgC},
+  pdf={https://arxiv.org/pdf/2503.04181},
+  abstract={
+    Offline optimization is an important task in numerous material engineering domains where online experimentation to collect data is too expensive and needs to be replaced by an in silico maximization of a surrogate of the black-box function. Although such a surrogate can be learned from offline data, its prediction might not be reliable outside the offline data regime, which happens when the surrogate has narrow prediction margin and is (therefore) sensitive to small perturbations of its parameterization. This raises the following questions: (1) how to regulate the sensitivity of a surrogate model; and (2) whether conditioning an offline optimizer with such less sensitive surrogate will lead to better optimization performance. To address these questions, we develop an optimizable sensitivity measurement for the surrogate model, which then inspires a sensitivity-informed regularizer that is applicable to a wide range of offline optimizers. This development is both orthogonal and synergistic to prior research on offline optimization, which is demonstrated in our extensive experiment benchmark.
+  },
+  published={true},
+  selected = {true},
+  year={2024},
+  code={https://github.com/cuong-dm/BOSS},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{tran2023deep,
+  abbr = {ACIIDS},
+  title={A deep reinforcement learning-based multi-objective optimization for crowdsensing-based air quality monitoring systems},
+  author={Tran, Nam Duong and Dao, Manh Cuong and Nguyen, Thanh Hung and Dinh, Thi Ha Ly and Nguyen, Kien and Nguyen, Phi Le},
+  booktitle={Asian Conference on Intelligent Information and Database Systems},
+  pages={436--448},
+  year={2023},
+  organization={Springer},
+  google_scholar_id={W7OEmFMy1HYC},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-42430-4_36},
+  abstract={
+    Global air pollution is becoming increasingly severe. In this context, monitoring air quality at all times and locations is necessary. Traditionally, air quality is monitored using stationary monitoring stations. However, this approach has an inherent shortcoming: limited monitoring locations. Crowdsensing-based air monitoring has recently emerged as a promising alternative that expands monitoring coverage in both temporal and spatial dimensions through the collaboration of numerous participants. Typically, participants in crowdsensing systems are compensated for the data they provide. One of the critical challenges in handling a crowdsensing system is minimizing the cost while guaranteeing the quality of the data collected. For crowdsensing-based air monitoring systems, data quality refers to the temporal and spatial coverage corresponding to the locations and times the data was collected. In this study, we propose a solution based on deep reinforcement learning that simultaneously optimizes two goals: maximizing coverage range and minimizing costs. Our proposed solution is one of the first attempts to optimize both of these objectives for crowdsensing-based air monitoring systems. Compared to other algorithms, experimental results indicate that the proposed solution can increase coverage by more than 30% and reduce cost by more than 70%.
+  },
+  published={true},
+  selected = {false},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{nguyen2022deep,
+  abbr = {PIMRC},
+  title={Deep reinforcement learning-based charging algorithm for target coverage and connectivity in wrsns},
+  author={Nguyen, Hung Cuong and Dao, Manh Cuong and Nguyen, Thanh Trung and Doan, Ngoc Khanh and Nguyen, Thanh Hung and Nguyen, Truong Thao and Le Nguyen, Phi},
+  booktitle={2022 IEEE 33rd Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)},
+  pages={1178--1184},
+  year={2022},
+  organization={IEEE},
+  google_scholar_id={Y0pCki6q_DkC},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9978107/},
+  abstract={
+    Target coverage and connectivity are two of the most crucial issues in handling wireless sensor networks. However, maintaining these two factors is challenging due to the energy constraint of sensors. To this end, wireless charging has emerged as a promising solution to prolong the sensor's lifetime. In a wireless charging sensor network, a mobile charger moves around the network, stops at several charging locations and charges the sensor via electromagnetic waves. In this study, we investigate the problem of optimizing the charging location and charging time of the mobile charger to ensure the target coverage and connectivity of the network. Our main idea is to leverage the Deep Reinforcement Learning approach. Specifically, the mobile charger will act as an agent, which receives a state including the energy information of the sensors. The mobile charger then decides the following charging location and charging time using the state information and the knowledge learned in the past. Experimental results have shown that our algorithm can extend the network lifetime (i.e., the time until the network coverage and connectivity are not guaranteed) up to 245.9 times compared to the existing algorithms.
+  },
+  published={true},
+  selected = {false},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
