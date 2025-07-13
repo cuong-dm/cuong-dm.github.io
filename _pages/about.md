@@ -19,12 +19,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
----
-
 Hi! I'm Cuong, but you can call me Marcus.
 I'm currently a Research Assistant in the [Department of Computer Science](https://www.comp.nus.edu.sg/cs/), [National University of Singapore](https://nus.edu.sg/), where I have the privilege of working under the supervision of Professor [Bryan Kian Hsiang Low](https://www.comp.nus.edu.sg/~lowkh/). Prior to joining NUS, I earned my Bachelor's degree in Computer Science from the [Hanoi University of Science and Technology (HUST)](https://soict.hust.edu.vn/), where I was fortunate to be advised by Professor [Phi Le Nguyen](https://ai4life.hust.edu.vn/lenp/) and Professor [Trong Nghia Hoang](https://htnghia87.github.io/).
 
