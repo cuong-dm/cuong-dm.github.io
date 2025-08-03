@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NeurIPS
-date: 2015-09-25 16:11:00-0400
+date: 2024-09-25 16:11:00-0400
 inline: True
 ---
 
