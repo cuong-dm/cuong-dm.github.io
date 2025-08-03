@@ -99,8 +99,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-1-paper-boosting-offline-optimizers-with-surrogate-sensitivity-is-accepted-at-icml-2024",
+          title: '1 paper Boosting offline optimizers with surrogate sensitivity is accepted at ICML 2024....',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
