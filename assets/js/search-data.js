@@ -99,14 +99,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-1-paper-boosting-offline-optimizers-with-surrogate-sensitivity-is-accepted-at-icml-2024",
-          title: '1 paper Boosting offline optimizers with surrogate sensitivity is accepted at ICML 2024....',
-          description: "",
-          section: "News",},{id: "news-1-paper-incorporating-surrogate-gradient-norm-to-improve-offline-optimization-techniques-is-accepted-at-neurips-2024",
+            },},{id: "news-1-paper-incorporating-surrogate-gradient-norm-to-improve-offline-optimization-techniques-is-accepted-at-neurips-2024",
           title: '1 paper Incorporating Surrogate Gradient Norm to Improve Offline Optimization Techniques is accepted...',
           description: "",
           section: "News",},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-1-paper-boosting-offline-optimizers-with-surrogate-sensitivity-is-accepted-at-icml-2024",
+          title: '1 paper Boosting offline optimizers with surrogate sensitivity is accepted at ICML 2024....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
