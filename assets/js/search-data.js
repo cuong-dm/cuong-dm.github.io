@@ -50,6 +50,9 @@ ninja.data = [{
           section: "News",},{id: "news-1-paper-noisy-data-based-attack-a-new-type-of-untargeted-attack-in-federated-learning-and-its-countermeasures-is-accepted-at-future-generation-computer-systems-q1-journal-if-8-95-h-index-180",
           title: '1 paper Noisy data-based attack: A new type of untargeted attack in Federated...',
           description: "",
+          section: "News",},{id: "news-1-paper-root-rethinking-offline-optimization-as-distributional-translation-via-probabilistic-bridge-is-accepted-at-neurips-2025-as-a-spotlight",
+          title: '1 paper ROOT: Rethinking Offline Optimization as Distributional Translation via Probabilistic Bridge is...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
