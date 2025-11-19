@@ -4,5 +4,6 @@
 repo_description_lines_max: 2
 
 github_repos:
+  - cuong-dm/ROOT
   - cuong-dm/IGNITE
   - cuong-dm/BOSS
